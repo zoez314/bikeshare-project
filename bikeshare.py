@@ -105,6 +105,9 @@ def display_raw_data(df):
             print("Invalid input. Please enter 'yes' or 'no'.")
 
 
+
+#This function time_stats calculates and displays the most frequent times of travel, including the most common month, day of the week, 
+# and start hour for bike-share trips, based on the provided dataset.
 def time_stats(df):
     """Displays statistics on the most frequent times of travel."""
 
