@@ -12,6 +12,10 @@ def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
 
+    This function will prompt the user to input the city, month, and day to filter 
+    the bikeshare data. If the user chooses 'all' for month or day, no filtering 
+    will be applied for that parameter.
+    
     Returns:
         (str) city - name of the city to analyze
         (str) month - name of the month to filter by, or "all" to apply no month filter
